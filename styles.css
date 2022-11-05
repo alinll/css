@@ -1,0 +1,379 @@
+@media all{
+  html{
+    background-color: aliceblue;
+    display: flex;
+    width: 1600px;
+  }
+
+  .header{
+    display: flex;
+    align-content: center;
+  }
+  
+  .header_name{
+    display: flex;
+  }
+  
+  .header_name img{
+    margin-left: 300px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .header_name h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: purple;
+    font-weight: bold;
+    font-family: Anton;
+  }
+  
+  .header_name p{
+    color: grey;
+    margin-left: -85px;
+    margin-top: 60px;
+    font-size: 70%;
+  }
+  
+  .header_image{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+  .menu_header{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .menu_button{
+    background-color: white;
+    border: solid purple;
+    color: grey;
+    text-decoration: none;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    text-align: center; 
+  }
+  
+  .travel_guide{
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    margin-top: 5px;
+  }
+  
+  .travel_guide header{
+    color: grey;
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .travel_guide p{
+    color: purple;
+    text-align: center;
+    margin-left: -200px;
+    font-family: Manrope;
+    font-size: 80%;
+    line-height: 22px;
+  }
+  
+  .photo_map{
+    display: flex;
+    justify-content: center;
+    height: 710px;
+  }
+  
+  .services{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .first_service{
+    display: flex;
+    justify-content: center;
+    width: 255px;
+    font-family: Abel;
+  }
+  
+  .first_service header{
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .first_service img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+  }
+  
+  .first_service p{
+    margin-top: 35px;
+  }
+  
+  .second_service{
+    display: flex;
+    justify-content: center;
+    width: 255px;
+    font-family: Abel;
+  }
+  
+  .second_service header{
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .second_service img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+  }
+  
+  .second_service p{
+    margin-top: 35px;
+  }
+  
+  .third_service{
+    display: flex;
+    justify-content: center;
+    width: 255px;
+    font-family: Abel;
+  }
+  
+  .third_service header{
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .third_service img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+  }
+  
+  .third_service p{
+    margin-top: 35px;
+  }
+  
+  .about_block{
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+    background: white;
+    width: 950px;
+  }
+  
+  .about_block header{
+    text-align: center;
+    color: purple;
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+  }
+  
+  .about_block p{
+    text-align: center;
+    color: grey;
+    margin-left: -220px;
+    font-family: Manrope;
+    font-size: 80%;
+    line-height: 27px;
+  }
+  
+  .about_team{
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+    background: white;
+    width: 950px;
+  }
+  
+  .about_team header{
+    text-align: center;
+    color: purple;
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+  }
+  
+  .about_team p{
+    text-align: center;
+    color: grey;
+    margin-left: -155px;
+    font-family: Manrope;
+    font-size: 80%;
+    line-height: 27px;
+  }
+  
+  .photos{
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+    background: white;
+    width: 950px;
+  }
+  
+  .text header{
+    text-align: center;
+    color: purple;
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+  }
+  
+  .text p{
+    text-align: center;
+    color: grey;
+    font-family: Manrope;
+    font-size: 80%;
+    line-height: 27px;
+  }
+  
+  .photo1:hover{
+    width: 220px;
+    height: 210px;
+  }
+  
+  .photo2:hover{
+    width: 220px;
+    height: 210px;
+  }
+  
+  .photo3:hover{
+    width: 220px;
+    height: 210px;
+  }
+  
+  .photo4:hover{
+    width: 220px;
+    height: 210px;
+  }
+  
+  .the_tour_blocks{
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+    width: 950px;
+  }
+  
+  .first_tour{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    font-family: Abel;
+    background: white;
+  }
+  
+  .text_tour{
+    width: 350px;
+    color: purple;
+    font-family: Manrope;
+    font-size: 80%;
+    line-height: 27px;
+  }
+  
+  .text_tour header{
+    font-weight: bold;
+    color: black;
+    font-size: 100%;
+  }
+  
+  .text_tour p{
+    margin-top: 7px;
+    color: grey;
+  }
+  
+  .second_tour{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    font-family: Abel;
+    background: white;
+  }
+  
+  .text_second_tour{
+    width: 350px;
+    color: purple;
+    font-family: Manrope;
+    font-size: 80%;
+    line-height: 27px;
+  }
+  
+  .text_second_tour header{
+    font-weight: bold;
+    color: black;
+    font-size: 100%;
+  }
+  
+  .text_second_tour p{
+    margin-top: 7px;
+    color: grey;
+  }
+  
+  .how_block{
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+    width: 950px;
+    background-color: white;
+  }
+  
+  .text_how{
+    width: 800px;
+    color: purple;
+    font-family: Manrope;
+    font-size: 80%;
+    line-height: 27px;
+  }
+  
+  .text_how header{
+    font-weight: bold;
+    color: black;
+    font-size: 100%;
+  }
+  
+  .text_how p{
+    margin-top: 7px;
+    color: grey;
+  }
+  
+  .footer_block{
+    background-color: rgb(54, 53, 53);
+  }
+  
+  .text_footer{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 10px;
+    width: 450px;
+    color: white;
+    font-family: "Source Serif Pro";
+    font-size: 80%;
+  }
+  
+  .links_buttons{
+    display: flex;
+    margin-left: 700px;
+  }
+  
+  .links_buttons img{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .elements_links{
+    margin-left: 50px;
+  }
+  
+  .end{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 10px;
+    color: grey;
+    font-family: "Source Serif Pro";
+    font-size: 80%;
+    width: 750px;
+  }
+}
